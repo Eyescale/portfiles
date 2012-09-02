@@ -1,0 +1,20 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           github 1.0
+PortGroup           cmake 1.0
+
+name                VMMLib
+categories          devel
+maintainers         Stefan Eilemann <eile@eyescale.ch>
+license             LGPL
+description         Templatized C++ vector and matrix math library
+long_description    Templatized C++ vector and matrix math library
+
+github.setup        Eyescale ${name} 1.4.0 release-
+depends_lib         
+
+supported_archs     ppc ppc64 i386 x86_64
+universal_variant   yes
+checksum {}
