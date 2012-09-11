@@ -12,7 +12,7 @@ license             LGPL
 description         Templatized C++ vector and matrix math library
 long_description    Templatized C++ vector and matrix math library
 
-github.setup        Eyescale ${name} 1.4.0 release-
+github.setup        VMML ${name} 1.4.0 release-
 depends_lib         
 
 supported_archs     ppc ppc64 i386 x86_64
