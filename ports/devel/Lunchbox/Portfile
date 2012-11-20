@@ -12,8 +12,8 @@ license             LGPL
 description         Multi-threaded toolbox library
 long_description    Multi-threaded toolbox library
 
-github.setup        Eyescale ${name} 1.4.1 release-
-depends_lib          port:boost port:avahi
+github.setup        Eyescale ${name} 1.6.0 release-
+depends_lib         port:boost port:avahi
 
 supported_archs     ppc ppc64 i386 x86_64
 universal_variant   yes

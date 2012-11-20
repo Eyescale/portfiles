@@ -12,8 +12,8 @@ license             LGPL
 description         Parallel Rendering Framework
 long_description    Parallel Rendering Framework
 
-github.setup        Eyescale ${name} 1.4.0 release-
-depends_lib          port:boost port:gpusd port:Lunchbox port:VMMLIB
+github.setup        Eyescale ${name} 1.4.1 release-
+depends_lib         port:boost port:gpusd port:Lunchbox port:VMMLIB
 
 supported_archs     ppc ppc64 i386 x86_64
 universal_variant   yes
