@@ -5,15 +5,16 @@ PortSystem          1.0
 PortGroup           github 1.0
 PortGroup           cmake 1.0
 
-name                VMMLib
+github.setup        Eyescale vmmlib 1.6.1 release-
+
+name                vmmlib
 categories          devel
 maintainers         Stefan Eilemann <eile@eyescale.ch>
 license             LGPL
 description         Templatized C++ vector and matrix math library
 long_description    Templatized C++ vector and matrix math library
 
-github.setup        VMML ${name} 1.4.0 release-
-depends_lib         
+depends_lib        
 
 supported_archs     ppc ppc64 i386 x86_64
 universal_variant   yes

@@ -1,8 +1,14 @@
-Lunchbox 378
-variants {debug universal} depends_build port:cmake portdir devel/Lunchbox description {Multi-threaded toolbox library} homepage https://github.com/Eyescale/Lunchbox epoch 0 depends_lib {port:boost port:avahi} name Lunchbox long_description {Multi-threaded toolbox library} maintainers {Stefan Eilemann <eile@eyescale.ch>} license LGPL categories devel version 1.6.0 revision 0
-VMMLib 379
-variants {debug universal} depends_build port:cmake portdir devel/VMMLib description {Templatized C++ vector and matrix math library} homepage https://github.com/VMML/VMMLib epoch 0 depends_lib {} name VMMLib long_description {Templatized C++ vector and matrix math library} maintainers {Stefan Eilemann <eile@eyescale.ch>} license LGPL categories devel version 1.4.0 revision 0
+Collage 388
+variants {debug universal} depends_build port:cmake portdir devel/Collage description {Object-Oriented C++ Network Library} homepage https://github.com/Eyescale/Collage epoch 0 depends_lib {port:boost port:Lunchbox} name Collage maintainers {Stefan Eilemann <eile@eyescale.ch>} license LGPL long_description {Object-Oriented C++ Network Library} categories devel version 1.0.0 revision 0
+GLStats 386
+variants {debug universal} depends_build port:cmake portdir devel/GLStats description {OpenGL overlay statistics renderer} homepage https://github.com/Eyescale/GLStats epoch 0 depends_lib {port:boost port:Lunchbox} name GLStats maintainers {Stefan Eilemann <eile@eyescale.ch>} license LGPL long_description {OpenGL overlay statistics renderer} categories devel version 0.1.0 revision 0
+Lunchbox 365
+variants {debug universal} depends_build port:cmake portdir devel/Lunchbox description {Multi-threaded toolbox library} homepage https://github.com/Eyescale/Lunchbox epoch 0 depends_lib port:boost name Lunchbox maintainers {Stefan Eilemann <eile@eyescale.ch>} license LGPL long_description {Multi-threaded toolbox library} categories devel version 1.8.0 revision 0
+vmmlib 383
+variants {debug universal} depends_build port:cmake portdir devel/VMMLib description {Templatized C++ vector and matrix math library} homepage https://github.com/Eyescale/vmmlib epoch 0 depends_lib {} name vmmlib maintainers {Stefan Eilemann <eile@eyescale.ch>} license LGPL long_description {Templatized C++ vector and matrix math library} categories devel version 1.6.1 revision 0
 Equalizer 409
 variants {debug universal} depends_build port:cmake portdir graphics/Equalizer description {Parallel Rendering Framework} homepage https://github.com/Eyescale/Equalizer epoch 0 depends_lib {port:boost port:gpusd port:Lunchbox port:VMMLIB} name Equalizer long_description {Parallel Rendering Framework} maintainers {Stefan Eilemann <eile@eyescale.ch>} license LGPL categories graphics version 1.4.1 revision 0
 gpusd 378
 variants {debug universal} depends_build port:cmake portdir graphics/gpusd description {Local and remote GPU discovery} homepage https://github.com/Eyescale/gpusd epoch 0 depends_lib {port:boost port:Lunchbox} name gpusd long_description {Local and remote GPU discovery} maintainers {Stefan Eilemann <eile@eyescale.ch>} license LGPL categories graphics version 1.4.0 revision 0
+hwsd 394
+variants {debug universal} depends_build port:cmake portdir graphics/hwsd description {Local and remote GPU discovery} homepage https://github.com/Eyescale/hwsd epoch 0 depends_lib {port:boost port:qt4-mac-devel port:Lunchbox} name hwsd maintainers {Stefan Eilemann <eile@eyescale.ch>} license LGPL long_description {Local and remote GPU discovery} categories graphics version 1.0.0 revision 0

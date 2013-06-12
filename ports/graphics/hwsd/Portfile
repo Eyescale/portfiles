@@ -5,16 +5,16 @@ PortSystem          1.0
 PortGroup           github 1.0
 PortGroup           cmake 1.0
 
-github.setup        Eyescale Lunchbox 1.8.0 release-
+github.setup        Eyescale hwsd 1.0.0 release-
 
-name                Lunchbox
-categories          devel
+name                hwsd
+categories          graphics
 maintainers         Stefan Eilemann <eile@eyescale.ch>
 license             LGPL
-description         Multi-threaded toolbox library
-long_description    Multi-threaded toolbox library
+description         Local and remote GPU discovery
+long_description    Local and remote GPU discovery
 
-depends_lib         port:boost
+depends_lib         port:boost port:qt4-mac-devel port:Lunchbox
 
 supported_archs     ppc ppc64 i386 x86_64
 universal_variant   yes
