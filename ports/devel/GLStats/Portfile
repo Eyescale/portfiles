@@ -14,7 +14,7 @@ license             LGPL
 description         OpenGL overlay statistics renderer
 long_description    OpenGL overlay statistics renderer
 
-depends_lib         port:boost port:Lunchbox
+depends_lib         port:Lunchbox
 
 supported_archs     ppc ppc64 i386 x86_64
 universal_variant   yes

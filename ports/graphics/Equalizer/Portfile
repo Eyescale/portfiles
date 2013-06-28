@@ -5,6 +5,8 @@ PortSystem          1.0
 PortGroup           github 1.0
 PortGroup           cmake 1.0
 
+github.setup        Eyescale Equalizer 1.6.0 release-
+
 name                Equalizer
 categories          graphics
 maintainers         Stefan Eilemann <eile@eyescale.ch>
@@ -12,8 +14,7 @@ license             LGPL
 description         Parallel Rendering Framework
 long_description    Parallel Rendering Framework
 
-github.setup        Eyescale ${name} 1.4.1 release-
-depends_lib         port:boost port:gpusd port:Lunchbox port:VMMLIB
+depends_lib         port:boost port:hwsd port:Lunchbox port:VMMLIB
 
 supported_archs     ppc ppc64 i386 x86_64
 universal_variant   yes
