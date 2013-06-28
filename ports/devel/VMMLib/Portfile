@@ -5,7 +5,7 @@ PortSystem          1.0
 PortGroup           github 1.0
 PortGroup           cmake 1.0
 
-github.setup        Eyescale vmmlib 1.6.1 release-
+github.setup        VMML vmmlib 1.6.2 release-
 
 name                vmmlib
 categories          devel
