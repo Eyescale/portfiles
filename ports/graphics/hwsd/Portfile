@@ -14,7 +14,7 @@ license             LGPL
 description         Local and remote GPU discovery
 long_description    Local and remote GPU discovery
 
-depends_lib         port:boost port:qt4-mac-devel port:Lunchbox
+depends_lib         port:boost port:qt4-mac port:Lunchbox
 
 supported_archs     ppc ppc64 i386 x86_64
 universal_variant   yes

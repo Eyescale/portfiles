@@ -14,7 +14,7 @@ license             LGPL
 description         Parallel Rendering Framework
 long_description    Parallel Rendering Framework
 
-depends_lib         port:boost port:hwsd port:Lunchbox port:VMMLIB
+depends_lib         port:boost port:hwsd port:GLStats port:Collage port:Lunchbox port:VMMLIB
 
 supported_archs     ppc ppc64 i386 x86_64
 universal_variant   yes
